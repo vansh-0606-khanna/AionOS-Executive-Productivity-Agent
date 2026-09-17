@@ -1,0 +1,29 @@
+## How to Run
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/AionOS-Executive-Productivity-Agent.git
+cd AionOS-Executive-Productivity-Agent
+2. Create a Virtual Environment
+
+Windows
+
+python -m venv venv
+venv\Scripts\activate
+
+macOS / Linux
+
+python3 -m venv venv
+source venv/bin/activate
+3. Install Dependencies
+pip install -r requirements.txt
+4. Run the Application
+streamlit run app.py
+
+The application will open at:
+
+http://localhost:8501
+5. Run the Backend Separately
+python executive_productivity_backend.py
+
+Note: The current prototype does not require an OpenAI API key.
